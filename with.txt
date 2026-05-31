@@ -1,0 +1,64 @@
+E08, E09, E11, E13 with final characters .00 or .01
+F10-F19, with .17, .27, .97
+F10-F19 with .151, .251, .951
+F10-F19 with .150, .250, .950
+F10-F19 with .14, .24, .94
+F10-F19 with .180, .280, .980
+S06.0X- with seventh character A
+F11-F19 with .15. .25, .95
+F10, F13, F19 with .26, .96
+I69. with final characters -23
+I69. with final characters -23
+B27.- with fifth character 2
+E08-E13 with .44
+E08-E13 with .41
+E08-E13 with .42
+B27.0-B27.9 with fifth character 1
+E08-E13 with .43
+E08-E13 with .39
+E08-E13 with .51-.52
+E08-E13 with .51-.52
+E08-E13 with .52
+A37 with fifth-character 1
+E08-E13 with .620
+E08-E13 with .62-
+E08-E13 with .61-
+E08-E13 with .610
+E08-E13 with .69-
+E08-E13 with .21
+E08-E13 with .29
+E08-E13 with .52
+I69. with final characters -93
+I69. with final characters -92
+F10-F19 with 5th character .6
+F11-F19 with fifth to sixth characters 51
+I69. with final characters -20
+I69. with final characters -21
+I69. with final characters -22
+I69. with final characters -28
+I69. with final characters -23
+I69. with final characters -90
+S02.- with 7th character B
+S12.- with 7th character B
+M51.- with fifth character 4
+S32.1--S32.9 with 7th character B
+M51.- with fifth character 6
+S42.- with 7th character B or C
+S52.- with open fracture 7th character
+S62.- with 7th character B
+T22.- with fifth character 4
+T22.- with fifth character 6
+T22.- with fifth character 5
+T36-T65 with fifth or sixth character 1-4 or 6
+T36-T65 with fifth or sixth character 1-4
+T36-T65 with fifth or sixth character 1-4
+V01-V09 with 5th character 1
+V01-V09 with 5th character 1
+V01-V09 with 5th character 2
+V01-V09 with fifth character 9
+V01-V09 with 5th character 9
+V01-V09 with 5th character 9
+V01-V09 with 5th character 9
+V01-V09 with 5th character 9
+V01-V09 with 5th character 9
+V01-V09 with 5th character 9
