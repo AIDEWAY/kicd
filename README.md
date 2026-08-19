@@ -23,11 +23,35 @@ Database artifact support. The module contains the SQLite schema used by Kicd da
 
 ## Installation
 
+Add JitPack to the repositories in `settings.gradle.kts`:
+
 ```kotlin
-implementation("org.tekfive.kicd:kicd:1.0.0")
+dependencyResolutionManagement {
+    repositories {
+        mavenCentral()
+        maven {
+            url = uri("https://jitpack.io")
+            content {
+                includeGroup("com.github.AIDEWAY.kicd")
+            }
+        }
+    }
+}
 ```
 
-The published artifact coordinates are `org.tekfive.kicd:kicd`; the Kotlin package is `org.aideway.kicd`.
+Then add the core library:
+
+```kotlin
+implementation("com.github.AIDEWAY.kicd:kicd:v1.0.0")
+```
+
+The database-support module is available separately:
+
+```kotlin
+implementation("com.github.AIDEWAY.kicd:kicd-db:v1.0.0")
+```
+
+The Kotlin package remains `org.aideway.kicd`.
 
 ## Development
 

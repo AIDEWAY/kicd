@@ -1,12 +1,11 @@
 plugins {
     alias(libs.plugins.kotlin.jvm)
+    `java-library`
     `maven-publish`
 }
 
-group = "org.tekfive.kicd"
-version = "1.0.0"
-
 java {
+    withSourcesJar()
     toolchain {
         languageVersion = JavaLanguageVersion.of(21)
     }
@@ -18,6 +17,7 @@ dependencies {
 
     testImplementation(libs.kotlin.test.junit)
     testImplementation(libs.junit.vintage)
+    testRuntimeOnly(libs.junit.platform.launcher)
 }
 
 tasks.test {
@@ -28,7 +28,6 @@ publishing {
     publications {
         create<MavenPublication>("maven") {
             from(components["java"])
-            groupId = "org.tekfive.kicd"
             artifactId = "kicd"
         }
     }
